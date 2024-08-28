@@ -43,7 +43,7 @@ type Order = {
     age: 2,
     books: ["1"],
     email: "author@gmail.com",
-    firstName: "Felipe",
+    firstName: "Joao",
     orders: [],
     register() {
       return "a";
@@ -60,8 +60,8 @@ type Order = {
   
   // Cria uma instância de UserInterface chamada 'emailUser'
   const emailUser: UserInterface = {
-    email: "felipe@gmail.com",
-    firstName: "Felipe",
+    email: "joao@gmail.com",
+    firstName: "Joao",
     login() {
       return "a";
     },
@@ -75,7 +75,7 @@ type Order = {
   // Cria uma instância de um objeto que combina as interfaces 'UserInterface' e 'AuthorInterface'
   const newAuthor: UserInterface & AuthorInterface = {
     email: "author@gmail.com",
-    firstName: "Felipe",
+    firstName: "Joao",
     books: [],
     login() {
       return "a";
